@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>联系我contact</title>
+    </head>
+    <body>
+        <header>
+            <h1>-联系我-</h1>
+        </header>
+        <nav>
+            <ul>
+              <li><a href="message.html">基本信息</a></li>
+              <li><a href="skill.html">技能介绍</a></li>
+              <li><a href="contact.html">联系我</a></li>
+              <li><a href="index.html">返回主页</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>如果您有任何需求，请通过下面方式联系我或将您的信息填写到下方表单中：</h2>
+                <p>我的住址：北京市朝阳区</p>
+                <p>我的邮箱：772606364@qq.com</p>
+                <p>我的电话：13394275133</p>
+                <form action="/my-handling-form-page" method="post">
+                    <p>注：*为必填项</p>
+                    <ul>
+                        <li>
+                            <label for="name">
+                                <span>姓名:</span>
+                                <strong><abbr title="必填">*</abbr></strong>
+                            </label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="email">
+                                <span>邮箱:</span>
+                                <strong><abbr title="必填">*</abbr></strong>
+                            </label>
+                            <input type="email" id="=email" name="user_email"/>
+                        </li>
+                        <li>
+                            <label for="phone">
+                                <span>电话:</span>
+                                <strong><abbr title="必填">*</abbr></strong>
+                            </label>
+                            <input type="tel" id="phone" name="user_phone"/>
+                        </li>
+                        <li>
+                            <label for="role">
+                                <span>身份:</span>
+                            </label>
+                            <select id="role" name="user_role">
+                                <option value="student">学生</option>
+                                <option value="teacher">教师</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="time">
+                                <span>填写日期:</span>
+                                <strong><abbr title="必填">*</abbr></strong>
+                            </label>
+                            <input type="date" id="time" name="user_time"/>
+                        </li>
+                        <li>
+                            <label for="message">
+                                <span>您的问题:</span>
+                                <strong><abbr title="必填">*</abbr></strong><br/>
+                            </label>
+                            <textarea id="message" name="user_message"></textarea>
+                        </li>
+                    </ul>
+                    <p>
+                        <button type="submit">确认发送</button>
+                    </p>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>版权所有 &copy; yaojiaxin 我的个人网页</p>
+        </footer>
+    </body>
+</html>
