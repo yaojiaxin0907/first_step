@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="style/style_message.css" />
         <title>基本信息</title>
     </head>
     <body>
@@ -18,15 +19,17 @@
             </ul>
         </nav>
      <main>
-        <section>
-            <h2>
+            <h2 id="a">
                 了解我的基本信息：
             </h2>
-            <p>您好！我是姚佳欣，欢迎来到我的个人简介网页。在这里我会分享一些关于我的信息：</p>
-            <p>本人就读于华北电力大学（北京）控制与计算机工程学院软件2102班，是一名大三的学生，来自辽宁。</p>
-            <p>曾获一等奖学金和校级三好学生等荣誉，关于我的兴趣，我平时喜欢听音乐，散步。</p>
+            <p id="b">您好！我是姚佳欣，欢迎来到我的个人简介网页。在这里我会分享一些关于我的信息：</p>
+            <div class="introduce">
+            <p class="bordered">本人（性别女），年龄20岁，就读于华北电力大学（北京）控制与计算机工程学院软件2102班，是一名大三在读的学生，来自辽宁省盘锦市，曾获一等奖学金和校级三好学生等荣誉。</p>
             <img src="images/photo.png" alt="姚佳欣的照片" /><br/>
-            <p>下面是一条我非常喜欢的视频：</p><br/>
+            <p class="bordered">生活方面，我的人生座右铭“实践出真知”，是我在高中学习政治哲学板块时就一直坚信的道理，实践是检验真理的唯一标准，关于我的兴趣，我平时喜欢听音乐，散步。</p>
+            </div>
+            <h2 id="a">下面是一条我非常喜欢的视频：</h2><br/>
+            <div class="movie">
             <video
                 controls
                 width="700"
@@ -36,11 +39,13 @@
                 preload="auto">
                 <source src="images/enhypen.mp4" type="video/mp4" />
             </video>
-            <p>下面是我非常喜欢的一首歌：</p>
+            </div>
+            <h2 id="a">下面是我非常喜欢的一首歌：</h2>
+            <div class="music">
             <audio controls>
                 <source src="images/we.mp3" type="audio/mp3" />
               </audio>
-              <p>如果你的浏览器不支持该音频，可点击<a href="images/we.mp3">此链接</a>收听。</p>
+              </div>
         </section>
      </main>
      <footer>

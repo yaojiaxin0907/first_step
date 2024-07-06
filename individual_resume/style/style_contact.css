@@ -1,0 +1,126 @@
+.nav ul{
+    list-style-type: none;
+    width:auto;
+    height: 60px;
+    background: pink;
+    margin: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.nav li{
+    float: left;
+    width: 270px;
+    height: 100%;
+    padding:0px;
+    margin-right: 1%;
+}
+a:link,a:visited{
+    display: block;
+    color:white;
+    background-color: palevioletred;
+    text-align: center;
+    line-height: 40px;
+    padding:10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightcoral;
+}
+header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: deeppink;
+    text-align: center;
+}
+footer{
+    color:darkgray;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: auto;
+    width: 100%;
+}
+html{
+    background-image: url(image/background.jpeg);
+    background-size: cover;
+}
+.me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.b{
+    border: 5px dashed pink;
+    margin: 20px;
+    background-color: rgb(212, 234, 234);
+    display: flex;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.b img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+}
+form{
+    border: 5px dashed pink;
+    background-color: rgb(212, 234, 234);
+    font-size: 20px;
+}
+#must{
+    color: gray;
+    text-align: center;
+}
+form ul{
+    list-style-type: none;
+}
+.c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+.d{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+select{
+    width: 150px;
+    height: 40px;
+}
+textarea{
+    width:90%;
+    margin: 10px;
+    height:200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-button{
+    background-color: #71d8e1; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.my-button:hover{
+    background-color: rgb(99, 154, 230);
+}
