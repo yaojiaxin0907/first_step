@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>TodoList</title>
+</head>
+<body>
+    <div class="todo-container">
+        <h2>Todo List</h2>
+        <input type="text" id="todo-input" placeholder="请输入待办内容">
+        <select id="priority-select">
+            <option value="important">重要</option>
+            <option value="not-important">不重要</option>
+        </select>
+        <button onclick="addTodo()">添加</button>
+        <div class="todo-list">
+            <div class="list" id="important-list">
+                <h3>重要事项</h3>
+            </div>
+            <div class="list" id="not-important-list">
+                <h3>不重要事项</h3>
+            </div>
+        </div>
+        <div class="history-container">
+            <h3>History</h3>
+            <div id="history-list"></div>
+        </div>
+    </div>
+</body>
+</html>
